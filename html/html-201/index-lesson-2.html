@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HTML 201: Lesson 2</title>
+    <link rel="shortcut icon" href="../public/assets/img/Chris3.png" type="image/png">
+</head>
+<body>
+    <h1>Welcome to HTML 201</h1>
+    <h2>An Introduction to Tables</h2>
+    <p>Let's create a simple table with name, age and location!</p>
+    <!--<table> creates a table. We need to define a border, and the width it takes up on the page-->
+    <table border="1px" width="50%">
+        <!--<tr> means table row-->
+        <tr>
+           <!--Inside the table rows are <td>, which means table data cells-->
+            <td>
+                Name
+            </td>
+            <td>
+                Age
+            </td> 
+            <td>
+                Location
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Emily
+            </td>
+            <td>
+                25
+            </td>
+            <td>
+                Winnipeg, Canada
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Joe
+            </td>
+            <td>
+                36
+            </td>
+            <td>
+                Stockholm, Sweden
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ruby
+            </td>
+            <td>
+                43
+            </td>
+            <td>
+                London, England
+            </td>
+        </tr>
+        <!--We can also merge table cells and rows by using colspan-->
+        <tr>
+            <!--We set how many cells we want the column to span over-->
+            <!--We can also do the same thing by using rowspan to merge downwards-->
+            <td colspan="3">
+                A group of happy friends!
+            </td>
+        </tr>
+    </table>    
+</body>
+</html>
