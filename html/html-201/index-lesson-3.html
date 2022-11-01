@@ -12,6 +12,49 @@
 <body>
     <h1>Welcome to HTML 201</h1>
     <h2>In line styling with HTML classes!</h2>
-    
+    <!--To add a style sheet inside our HTML we use <style></style> Inside these tags, we can create CSS styles by using the class attribute-->
+    <!--.className can be applied to multiple HTML elements. .className is like saying className is equal to-->
+    <style>
+        .divStyle {
+            padding: 50px;
+            color: #fff;
+            background-color: #000;
+        }
+
+        .upperCase {
+            text-transform: uppercase;
+        }
+
+        .divMargin {
+            margin: 20px;
+        }
+
+        #blue {
+            color: blue;
+        }
+
+        #pink {
+            color: palevioletred;
+        }
+
+        #annoyingBox {
+            border: 15px solid red;
+        }
+    </style>
+    <!--When we apply the class divStyle, we see the above styles applied-->
+    <div class="divStyle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quidem fugiat eligendi soluta distinctio, ducimus quis neque odio facere nobis magnam laboriosam maiores mollitia nulla aliquid sit commodi, nemo animi.
+    </div>
+    <div class="divMargin">
+    </div>
+    <!--By applying this class, we can use it again and again to save time if we want the same look and feel! We can also add multiple classes by putting a space between the ones we want to use-->
+    <div class="divStyle upperCase">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod velit repellat maxime sapiente quae quis, error aspernatur, id nulla dicta molestiae reiciendis asperiores aliquam quisquam culpa! Nam reiciendis aperiam in!
+    </div>
+    <div class="divMargin">
+    </div>
+    <!--The id attribute is similar to class, but should only be applied to a single element. It starts with the hash symbol #-->
+    <p id="annoyingBox">
+        <!--Our paragraph has an annoying border around it.Inside our span, we have id's for blue and pink text!-->
+        This paragraph has <span id="blue">funky</span> colours! Take a <span id="pink">look!</span>
+    </p>
 </body>
 </html>
