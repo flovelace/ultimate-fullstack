@@ -15,12 +15,24 @@
     <h2>Login to BookFace!</h2>
     <!--Forms begin with <form></form>. These are the main input types of a form-->
     <form action="">
-        <!--There are many input types, but let's use text. Value inserts a default value, and place hold creates placeholder text like a hint for the user!-->
+        <!--There are many input types, but let's use text. Value inserts a default value, and placeholder creates placeholder text like a hint for the user!-->
         Username: <input type="text" value="Mr. Stinky" placeholder="Enter your username">
-        <div style="padding: 20px;">
+        <div style="padding: 10px;">
         </div>
         <!--Password type obscures the input-->
         Password: <input type="password" value="topSecretPassword" placeholder="Enter your password">
+    </form>
+    <div style="padding: 10px;"></div>
+    <!--Imagine we want to create a form where a user can submit their opinion-->
+    <h2>Your Opinion Counts!</h2>
+    <!--We can also put textarea into our forms. White space matters with the textbox if you are including text. We can include placeholders as well as define the size with rows and columns-->
+    <form action="">
+        <textarea cols="60" rows="5" placeholder="Insert your comments here!"></textarea>
+        <!--Buttons are important on a form. They allow us to execute an event. It is important to include a button type-->
+        <div style="padding: 10px;"></div>
+        <button type="submit">Submit</button>
+        <!--The reset button type resets the page-->
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>
