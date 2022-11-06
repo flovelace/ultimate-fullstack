@@ -16,11 +16,14 @@
     <!--Forms begin with <form></form>. These are the main input types of a form-->
     <form action="">
         <!--There are many input types, but let's use text. Value inserts a default value, and placeholder creates placeholder text like a hint for the user!-->
-        Username: <input type="text" value="Mr. Stinky" placeholder="Enter your username">
+        Username: <input type="text" value="Mr. Stinky" placeholder="Enter your username" required>
+        <!--We can add the required attribute if the field is required-->
         <div style="padding: 10px;">
         </div>
         <!--Password type obscures the input-->
-        Password: <input type="password" value="topSecretPassword" placeholder="Enter your password">
+        Password: <input type="password" value="topSecretPassword" placeholder="Enter your password" required>
+        <div style="padding: 10px;"></div>
+        <button type="submit">Login</button>
     </form>
     <div style="padding: 10px;"></div>
     <!--Imagine we want to create a form where a user can submit their opinion-->
@@ -33,6 +36,21 @@
         <button type="submit">Submit</button>
         <!--The reset button type resets the page-->
         <button type="reset">Reset</button>
+    </form>
+    <!--To use a drop down, we use form, and then select-->
+    <div style="padding: 10px;"></div>
+            <h2>Choose your RPG Class!</h2>
+    <form action="">
+        <select name="selected_option" id="">
+            <!--We put the available select options inside option-->
+            <option value="knight">Knight</option>
+            <option value="paladin">Paladin</option>
+            <option value="bard">Bard</option>
+            <option value="mage">Mage</option>
+            <!--We can disable an option by using the disabled attribute. This means users cannot select it-->
+            <option value="" disabled="disabled">-Jongleur-</option>
+        </select>
+        <button type="submit">Choose</button>
     </form>
 </body>
 </html>
