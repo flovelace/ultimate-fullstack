@@ -5,15 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../public/assets/img/Chris2.png" type="png">
-    <title>Document</title>
+    <title>CSS: 101</title>
+    <!--Style tags and inline are internal CSS-->
     <style>
         /* We can write styles inside the head. The format for writing CSS is:
         selector { property: value; property2: value;
         }        ^ declaration     ^
         */ 
+        h2 {
+            color: blueviolet;
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(160, 157, 157);
+        }
+
+        .orange {
+            color: orange;
+        }
+
+        #upperCase {
+            text-transform: uppercase;
+        }
+        /*^ this will apply the style to all h2 elements on the page*/
+
+        /*Below will target tested elements! This is a nested selector*/
+        p strong {
+            color: magenta;
+        }
     </style>
 </head>
+<!--We can use style tags or inline styling-->
 <body>
-    
+    <!--Using inline styling, we have given this h1 the colour of blue. We can add multiple declarations using the semicolon-->
+    <h1 style="color: blue; text-align: center;">Welcome to CSS 101!</h1>
+    <h2>Learning About Styling</h2>
+    <h2>It's very good fun!</h2>
+    <!--We can also select elements by providing class names. We can use three h3 elements and only colour two of them by selecting two and providing them with the 'orange' class!-->
+    <h3 class="orange">I am an h3 with a class!</h3>
+    <!--ids should always be completely unique!-->
+    <h3 id="upperCase">I am an h3 without a class! I have an id!</h3>
+    <h3 class="orange">I am an h3 with a class!</h3>
+    <p>We can also target nested <strong>elements</strong> with our <strong>CSS</strong> without classes or ids.</p>
+    <strong>Wow! That's very cool!</strong>
 </body>
 </html>
