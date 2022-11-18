@@ -8,7 +8,7 @@
     <title>CSS 101: Lesson 3</title>
     <style>
         /* Adding a background image */
-        div {
+        #header-img {
             background-image: url(../public/assets/img/wp5798493.jpg);
             background-size: cover;
             background-repeat: no-repeat;
@@ -24,13 +24,24 @@
             border: 1px solid rgb(218, 218, 218);
             border-radius: 10px;
         }
+
+        .block {
+            display: inline;
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div id="header-img">
     </div>
     <!--Aligning text: left, right, and centre are the most common-->
     <h1 id="head">Disco Elysium</h1>
     <h1 id="sub">No truce for the furies</h1>
+    <!-- We can change the default behavior of block elements by changing the display. Inline will display these two different divs side by side -->
+    <div class="block">
+        This is a block element |
+    </div>
+    <div class="block">
+        This is also a block element
+    </div>
 </body>
 </html>
