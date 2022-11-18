@@ -26,7 +26,15 @@
         }
 
         .block {
+            /* inline will ignore any height and width properties */
             display: inline;
+        }
+
+        .square {
+            display: inline-block;
+            border: 1px solid rgb(218, 218, 218);
+            width: 200px;
+            height: 200px;
         }
     </style>
 </head>
@@ -37,11 +45,20 @@
     <h1 id="head">Disco Elysium</h1>
     <h1 id="sub">No truce for the furies</h1>
     <!-- We can change the default behavior of block elements by changing the display. Inline will display these two different divs side by side -->
-    <div class="block">
+    <section>
+        <div class="block">
         This is a block element |
-    </div>
-    <div class="block">
+        </div>
+        <div class="block">
         This is also a block element
+        </div>
+    </section>
+    <!-- With out CSS, we will put these div elements side by side in squares -->
+    <div class="square">
+        This uses inline-block
+    </div>
+    <div class="square">
+        This also uses inline-block
     </div>
 </body>
 </html>
