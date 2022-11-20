@@ -43,6 +43,19 @@
             width: 200px;
             height: 200px;
         }
+
+        #box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: url("../public/assets/img/Chris2.png");
+            background-position: center center;
+            background-size: cover;
+            border-radius: 0 50% 0 50%;
+            /* A border radius goes top left, top right, bottom right, bottom left */
+            box-shadow: 6px 6px 15px inset rgb(53, 52, 52);
+            /* A box shadow goes x axis y axis, blur, inset or not then color */
+        }
     </style>
 </head>
 <body>
@@ -52,7 +65,7 @@
     <h1 id="head">Disco Elysium</h1>
     <h1 id="sub">No truce for the furies</h1>
     <!-- We can change the default behavior of block elements by changing the display. Inline will display these two different divs side by side -->
-    <section>
+    <section style="margin-bottom: 10px;">
         <div class="block">
         This is a block element |
         </div>
@@ -67,5 +80,9 @@
     <div class="square">
         This also uses inline-block
     </div>
+    <div style="margin: 10px;">
+    </div>
+    <!-- Making a box shadow effect -->
+    <div id="box"></div>
 </body>
 </html>
