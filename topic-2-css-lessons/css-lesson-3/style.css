@@ -77,3 +77,15 @@ div.square {
   /* Change the display to block */
   display: block;
 }
+
+/* Making elements transparent or translucent */
+#disco {
+  background-image: url(../public/assets/img/wp5798493.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
+  opacity: 0.5;
+}
