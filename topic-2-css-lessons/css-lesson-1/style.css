@@ -1,0 +1,27 @@
+/* We can write styles inside the head. The format for writing CSS is:
+        selector { property: value; property2: value;
+        }        ^ declaration     ^
+        */
+h2 {
+  color: blueviolet;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(160, 157, 157);
+}
+
+.orange {
+  color: orange;
+}
+
+#upperCase {
+  text-transform: uppercase;
+}
+
+/*^ this will apply the style to all h2 elements on the page*/
+
+/*Below will target tested elements! This is a nested selector*/
+p strong {
+  color: magenta;
+}
