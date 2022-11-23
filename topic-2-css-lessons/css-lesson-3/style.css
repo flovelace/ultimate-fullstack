@@ -49,10 +49,31 @@ div.square {
   /* A box shadow goes x axis y axis, blur, inset or not then color */
 }
 
-/* Padding is the internal spacing of an element. If we don't want the text to hug the border, we can use padding */
+/* Padding is the internal spacing of an element outside the border. If we don't want the text to hug the border, we can use padding */
 #padded-box {
   width: 300px;
   height: 300px;
   border: 2px dotted red;
   padding: 10px;
+}
+
+/* Margin is the spacing of an element outside the border. In order for the margin to respect the rules of margin, inline-block should be used */
+#margin-box {
+  width: 300px;
+  height: 300px;
+  border: 2px dotted blue;
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+}
+/* To center an element */
+#margin-box-centre {
+  width: 300px;
+  height: 300px;
+  border: 2px dotted blue;
+  padding: 10px;
+  /* Set the margin to auto */
+  margin: auto;
+  /* Change the display to block */
+  display: block;
 }
