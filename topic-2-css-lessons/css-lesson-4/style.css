@@ -14,7 +14,7 @@ body, html {
 
 #logo {
     height: 70px;
-    padding-top: 14px;
+    padding-top: 15px;
     padding-left: 40px;
 }
 
@@ -55,9 +55,32 @@ li a:hover {
     height: 100%;
 }
 
+.container {
+    height: 200px;
+}
+
 #hero-text {
     color: #f2f2f2;
-    font-size: 45px;
+    font-size: 70px;
     padding-left: 40px;
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+#hero-subtext {
+    color: #f2f2f2;
+    font-size: 35px;
+    padding-left: 200px;
+}
+
+button {
+    margin-left: 400px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
