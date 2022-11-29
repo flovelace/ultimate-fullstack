@@ -2,11 +2,12 @@
     margin: 10px;
 }
 
-.box {
+.box-1 {
     border: 5px red solid;
     height: 300px;
     width: 300px;
     margin: 30px;
+    display: inline-block;
     /* Adding 30px will make our box 370px. 30px padding + 5px border */
     padding: 30px;
     /* if we use box sizing, the box will confine all padding and border to the element */
@@ -19,4 +20,15 @@
     text-shadow: 2px 2px 3px rgb(146, 146, 146);
     /* Text shadow: x axis, y axis, blur, and color */
     
+}
+
+.box-2 {
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    /* a minimum width of 450px */
+    min-width: 450px;
+    /* a maxiumum width of 500px regardless of content */
+    max-width: 500px;
 }
