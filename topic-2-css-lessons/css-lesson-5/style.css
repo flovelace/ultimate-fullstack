@@ -28,7 +28,7 @@
     padding: 5px;
     box-sizing: border-box;
     /* a minimum width of 450px */
-    min-width: 450px;
-    /* a maxiumum width of 500px regardless of content */
+    min-width: 400px;
+    /* a maximum width of 500px regardless of content */
     max-width: 500px;
 }
