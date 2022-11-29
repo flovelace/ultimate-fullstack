@@ -1,0 +1,13 @@
+.spacing {
+    margin: 10px;
+}
+
+#box {
+    border: 5px red solid;
+    height: 300px;
+    width: 300px;
+    /* Adding 30px will make our box 370px. 30px padding + 5px border */
+    padding: 30px;
+    /* if we use box sizing, the box will confine all padding and border to the element */
+    box-sizing: border-box;
+}
