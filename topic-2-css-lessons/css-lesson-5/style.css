@@ -17,5 +17,6 @@
     outline-offset: 5px;
     font-size: 20px;
     text-shadow: 2px 2px 3px rgb(146, 146, 146);
-    text-transform: uppercase;
+    /* Text shadow: x axis, y axis, blur, and color */
+    
 }
