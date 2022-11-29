@@ -32,3 +32,14 @@
     /* a maximum width of 500px regardless of content */
     max-width: 500px;
 }
+
+.box-3 {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
