@@ -2,12 +2,17 @@
     margin: 10px;
 }
 
-#box {
+.box {
     border: 5px red solid;
     height: 300px;
     width: 300px;
+    margin: 30px;
     /* Adding 30px will make our box 370px. 30px padding + 5px border */
     padding: 30px;
     /* if we use box sizing, the box will confine all padding and border to the element */
     box-sizing: border-box;
+    /* Outlines are the borders outside the border */
+    outline: 5px solid green;
+    /* Offset will move the outline outwards */
+    outline-offset: 5px;
 }
