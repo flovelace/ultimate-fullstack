@@ -43,3 +43,15 @@
     top: 30px;
     left: 30px;
 }
+
+.absolute-box {
+    border: 2px solid orangered;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 10px;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
