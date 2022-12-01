@@ -21,9 +21,10 @@ html {
     background-color: #f5f5f5;
     border-bottom: 2px solid #ccc;
     padding: 20px;
-    position: fixed;
+    /* sticky sticks to its parent element */
+    position: sticky;
+    /* It needs top to know where to stick to */
     top: 0;
-    left: 0;
     width: 100%;
 }
 
