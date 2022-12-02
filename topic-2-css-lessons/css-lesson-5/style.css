@@ -84,3 +84,15 @@ html {
     width: 50%;
     height: 50%;
 }
+
+.box-4 {
+    /* Centre a block element */
+    border: 2px solid purple;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
