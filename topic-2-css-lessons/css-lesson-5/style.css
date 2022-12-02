@@ -68,6 +68,9 @@ html {
     position: relative;
     top: 30px;
     left: 30px;
+    /* Overflowing text. Auto will add a scroll is the text is too large to be contained */
+    overflow: auto;
+
 }
 
 .absolute-box {
