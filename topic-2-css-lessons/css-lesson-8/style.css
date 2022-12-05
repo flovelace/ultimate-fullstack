@@ -23,6 +23,14 @@ header {
 #nav-title {
     margin-right: auto;
     font-size: 1.5em;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 100;
+
+}
+
+#nav-title::first-letter {
+    font-size: 50px;
+    margin: 3px;
 }
 
 header li {
