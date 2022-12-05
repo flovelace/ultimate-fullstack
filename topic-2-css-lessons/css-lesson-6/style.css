@@ -71,7 +71,7 @@ p::first-line {
     background-color: green;
     color: white;
 }
-
+/* The transition must be applied to the element not the pseudo element */
 .button {
     background-color: #fff;
     display: inline-block;
@@ -82,6 +82,7 @@ p::first-line {
     transition: background-color 0.2s,
                 color 0.5s,
                 padding 1s;
+
 }
 
 .button:hover {
@@ -89,4 +90,11 @@ p::first-line {
     color: #fff;
     padding: 10px 30px;
 
+}
+/* Specify a height, and a width then there are many css gradient generators to be found online */
+.gradient {
+    height: 300px;
+    width: 100%;
+    background: rgb(1, 1, 1);
+    background: linear-gradient(36deg, rgba(1, 1, 1, 1) 0%, rgba(95, 95, 136, 1) 25%, rgba(230, 251, 255, 1) 85%);
 }
