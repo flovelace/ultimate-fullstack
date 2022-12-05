@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    /* wrap items onto multiple lines */
+    flex-wrap: wrap;
+}
+
+#container div {
+    border: 1px solid red;
+    /* We want our elements to take up 50% of the page so we keep stacking */
+    flex-basis: 50%;
+    /* If we do not want the containers to shrink or grow, we can set them to 0 */
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+#navContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.welcome {
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color: #dadada;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.navigation {
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color: #f5f5f5;
+    border-right: 1px solid#7e7e7e;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.content {
+    flex-basis: 80%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: #f5f5f5;
+
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
