@@ -1,5 +1,9 @@
-/* Before and After pseudo elements allow content to be inserted on the page without needing to be in the HTML. The end result is not actually in the DOM, but it appears as if it is */
+/* Select the font family */
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
 
+/* Before and After pseudo elements allow content to be inserted on the page without needing to be in the HTML. The end result is not actually in the DOM, but it appears as if it is */
 .box {
     width: 300px;
     height: 300px;
@@ -71,6 +75,7 @@ p::first-line {
     background-color: green;
     color: white;
 }
+
 /* The transition must be applied to the element not the pseudo element */
 .button {
     background-color: #fff;
@@ -91,6 +96,7 @@ p::first-line {
     padding: 10px 30px;
 
 }
+
 /* Specify a height, and a width then there are many css gradient generators to be found online */
 .gradient {
     height: 300px;
