@@ -104,3 +104,18 @@ p::first-line {
     background: rgb(1, 1, 1);
     background: linear-gradient(36deg, rgba(1, 1, 1, 1) 0%, rgba(95, 95, 136, 1) 25%, rgba(230, 251, 255, 1) 85%);
 }
+
+/* Transforming elements */
+.transform {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #000;
+    margin: 50px auto;
+    /* translate moves on the x and y axis */
+    transform: translate(100px, 100px);
+    /* rotate */
+    transform: rotate(45deg);
+    /* Skew */
+    transform: skew(20deg, 20deg);
+
+}
