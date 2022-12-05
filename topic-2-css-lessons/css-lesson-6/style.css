@@ -71,3 +71,22 @@ p::first-line {
     background-color: green;
     color: white;
 }
+
+.button {
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: background-color 0.2s,
+                color 0.5s,
+                padding 1s;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+
+}
