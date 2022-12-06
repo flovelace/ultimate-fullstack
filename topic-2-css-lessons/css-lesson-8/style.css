@@ -38,6 +38,7 @@ header li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
+    text-transform: uppercase;
 }
 
 header a {
@@ -103,5 +104,6 @@ form #searchButton:hover {
 .heroHeader {
     color: #cecece;
     font-size: 50px;
+    text-transform: uppercase;
 
 }
