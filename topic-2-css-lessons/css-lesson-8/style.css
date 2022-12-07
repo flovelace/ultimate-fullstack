@@ -13,7 +13,13 @@ h1 {
     margin: 0;
 }
 
-.subtitle,
+.subtitle {
+    font-size: 1.2rem;
+    color: #cecece;
+    text-transform: uppercase;
+}
+
+
 nav a {
     font-size: 1.5rem;
     color: #f5f5f5;
@@ -95,8 +101,9 @@ nav a:focus {
     text-align: center;
 }
 
-.heroHeader {
+#heroHeader {
     color: #cecece;
+    font-family: 'Roboto',sans-serif;
     font-size: 50px;
     text-transform: uppercase;
 
