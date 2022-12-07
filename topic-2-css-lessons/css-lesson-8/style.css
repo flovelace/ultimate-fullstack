@@ -82,7 +82,7 @@ nav a:focus {
     }
 }
 
-.heroImage {
+.hero-image {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/assets/img/castle_fog5_small.webp);
@@ -96,15 +96,28 @@ nav a:focus {
     border-bottom: 1px solid #464545;
 }
 
-.heroText {
+.hero-text {
     color: #cecece;
     text-align: center;
 }
 
-#heroHeader {
+#hero-header {
     color: #cecece;
     font-family: 'Roboto',sans-serif;
-    font-size: 50px;
+    font-size: 3.15em;
     text-transform: uppercase;
 
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    border-bottom: 1px solid #464545;
+    padding-bottom: 0.5rem;
+
+}
+
+.content-copy {
+    color: #cecece;
 }
