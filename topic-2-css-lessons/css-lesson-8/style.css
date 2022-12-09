@@ -17,6 +17,7 @@ h1 {
 .subtitle {
     font-size: 1.2rem;
     color: #cecece;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -159,7 +160,7 @@ nav a:focus {
     padding: 0 20px 20px;
 }
 
-.card .text>button {
+.card-link {
     background: #181818;
     box-shadow:
         /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -171,12 +172,14 @@ nav a:focus {
     color: #cecece;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
     padding: 10px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     transition: 0.7s;
 }
 
-.text>button:hover {
+.card-link:hover {
     background: #252525;
 
 }
