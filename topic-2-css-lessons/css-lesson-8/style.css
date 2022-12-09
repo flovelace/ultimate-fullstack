@@ -62,7 +62,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: #8899A6;
+    color: #5e5d5d;
     transition: all 0.3s ease 0s;
 }
 
@@ -106,7 +106,7 @@ nav a:focus {
 #hero-header {
     color: #cecece;
     font-family: 'Roboto',sans-serif;
-    font-size: 3.15em;
+    font-size: 3.1em;
     text-transform: uppercase;
 
 }
@@ -120,10 +120,34 @@ nav a:focus {
 
 }
 
+.about-image {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/assets/img/about.jpg);
+    opacity: 0.5;
+    height: 30em;
+    width: auto;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-copy {
+    color: #cecece;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
 .content-copy {
     color: #cecece;
     text-align: center;
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .cards {
@@ -178,7 +202,7 @@ nav a:focus {
     padding: 10px;
     display: flex;
     justify-content: center;
-    transition: 0.7s;
+    transition: all 0.7s ease 0s;
 }
 
 .card-link:hover {
