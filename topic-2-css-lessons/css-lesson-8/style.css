@@ -217,8 +217,15 @@ footer ul {
 
 }
 
-footer ul li {
+footer ul li .fa-brands {
     margin: 0.5rem;
+    transition: all 0.7s ease 0s;
+
+}
+
+.fa-brands:hover {
+    color: #5e5d5d !important;
+    /* transition: all 0.7s ease 0s; */
 
 }
 
@@ -228,3 +235,4 @@ footer ul li {
     font-size: 0.75rem;
     color: #cecece;
 }
+
