@@ -209,3 +209,22 @@ nav a:focus {
     background: #252525;
 
 }
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer ul li {
+    margin: 0.5rem;
+
+}
+
+.legal {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    color: #cecece;
+}
