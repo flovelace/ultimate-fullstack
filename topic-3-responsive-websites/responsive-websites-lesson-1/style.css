@@ -1,0 +1,23 @@
+/* The media query syntax */
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: yellow;
+
+}
+
+/* Add a media query. Wrap the media query around more CSS. When the maximum width of the page is 640px and under, change the background colour to red */
+@media (max-width: 640px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Mobile first means that we design the website for mobile first, and then larger screens such as desktop */
+@media (min-width: 640px) {
+    h1 {
+        color: orange;
+    }
+}
