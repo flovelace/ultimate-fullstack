@@ -21,3 +21,17 @@ h1 {
         color: orange;
     }
 }
+
+/* Responsive Image */
+img {
+    width: 50%;
+    height: auto;
+
+}
+
+@media (max-width: 640px) {
+    img {
+        width: 100%;
+        /* the browser will inherit the height: auto */
+    }
+}
