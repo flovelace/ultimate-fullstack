@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    flex-basis: 100%;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+aside {
+    flex-basis: 20%;
+    border-right: 1px solid #000;
+    padding: 20px;
+}
+
+section {
+    flex-basis: 80%;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+footer {
+    flex-basis: 100%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* Media queries */
+@media (max-width: 640px) {
+    aside, section {
+        flex-basis: 100%;
+        border-right: 0;
+    }
+}
+
+@media (max-width: 475px) {
+    aside {
+        display: none;
+    }
+}
