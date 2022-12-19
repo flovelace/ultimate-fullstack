@@ -49,5 +49,4 @@ if (yourName === 'Franz Kafka') {
       ' books.',
   );
 }
-
 // occupation and genre cannot be accessed outside of those curly braces
