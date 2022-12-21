@@ -23,6 +23,7 @@ const person = 'Katherine';
 
 if (person === 'Katherine') {
   console.log('Meet Katherine. She is the hero of the story!');
+  // else is used to execute a block of code is the condition is false
 } else {
   // if the above statement is false, execute this code
   if (person != 'Katherine') console.log('Meet ' + person + '.');
@@ -39,4 +40,16 @@ if (age >= 18) {
 }
 if (age >= 40) {
   console.log('You are doing great!');
+}
+
+// else if statements
+const logIn = 'coolsmart1';
+
+if (logIn === 'cooluser90') {
+  console.log('Welcome Special User' + logIn + '!');
+  // else if specifies a new condition to the test if the first condition is false
+} else if (logIn === 'bartman') {
+  console.log('Welcome Special User ' + logIn + '!');
+} else {
+  console.log('Welcome, Guest!');
 }
