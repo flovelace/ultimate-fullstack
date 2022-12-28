@@ -17,5 +17,9 @@ const person = {
 };
 
 // How to access the values in an object
+// Method 1
 console.log(person.age);
+// Method 2
 console.log(person['favFoods']);
+// Access a value in an array
+console.log(person.favFoods[2]);
