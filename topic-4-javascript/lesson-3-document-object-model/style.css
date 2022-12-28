@@ -1,0 +1,18 @@
+#box {
+    border: 2px solid #000;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+#redBox {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
