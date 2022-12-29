@@ -32,3 +32,13 @@ console.log(typeof splitColours);
 
 // Return the length of a string
 console.log(colours.length);
+
+// String concatenation (concat)
+// This is an older way to do it
+const name = 'Katherine';
+const age = 23;
+
+console.log('Hello! My name is ' + name + '. I am ' + age + ' years old.');
+
+//String template Literals. These begin with backticks
+console.log(`Hello! My name is ${name}. I am ${age} years old!`);
