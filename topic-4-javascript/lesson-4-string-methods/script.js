@@ -29,3 +29,6 @@ const colours = 'red, blue, green, yellow';
 let splitColours = colours.split(', ');
 console.log(splitColours);
 console.log(typeof splitColours);
+
+// Return the length of a string
+console.log(colours.length);
