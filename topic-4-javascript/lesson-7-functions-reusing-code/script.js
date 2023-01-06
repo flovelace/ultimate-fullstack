@@ -13,7 +13,7 @@ console.log(total);
 
 // A simple function using data type casting
 function multiplyNumber(num1, num2) {
-  // added Number ensures correct datatype is used
+  // added Number ensures correct data type is used through type casting
   const total = Number(num1) * Number(num2);
   return total;
 }
@@ -28,3 +28,17 @@ function sayHi(name) {
 
 let yourName = sayHi('Ada');
 console.log(yourName);
+
+// The rest operator
+// A rest ... allows the function to accept an unlimited amount of parameters
+
+function addNumbers(...numbers) {
+  let total = 0;
+  for (i in numbers) {
+    total = total + numbers[i];
+  }
+  return total;
+}
+
+const newTotal = addNumbers(1, 1, 1, 1, 1, 1, 1);
+console.log(newTotal);
