@@ -41,3 +41,25 @@ function addNumbers(yourName, ...numbers) {
 }
 const newTotal = addNumbers('Chris', 1, 2, 2);
 console.log(newTotal);
+
+// Objects with functions
+// Objects group sub variables into one variable
+
+const person = {
+  name: 'Chris',
+  age: 23,
+  occupation: 'knight',
+  // functions can be added to the object
+  // Object literals are more modern
+  favQuote(name = 'Default if a parameter is not provided') {
+    console.log(`How amusing of you, ${name}.`);
+  },
+};
+// Invoke the function within the object
+person.favQuote('Katherine');
+
+// Keys and values can be added to the object even though it's a constant
+
+person['favFood'] = 'cake';
+// The favFood has been added to the object
+console.log(person);
