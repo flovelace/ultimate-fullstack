@@ -32,13 +32,12 @@ console.log(yourName);
 // The rest operator
 // A rest ... allows the function to accept an unlimited amount of parameters
 
-function addNumbers(...numbers) {
+function addNumbers(yourName, ...numbers) {
   let total = 0;
   for (i in numbers) {
     total = total + numbers[i];
   }
-  return total;
+  return `${yourName}: the total is ${total}`;
 }
-
-const newTotal = addNumbers(1, 1, 1, 1, 1, 1, 1);
+const newTotal = addNumbers('Chris', 1, 2, 2);
 console.log(newTotal);
