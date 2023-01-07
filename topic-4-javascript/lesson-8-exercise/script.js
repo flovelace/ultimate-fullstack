@@ -11,16 +11,16 @@ const dogYears = document.getElementById('dogyears'); // Fill this in.
 
 function showDogYears(age) {
   // Step 3. Cast `age` as a number
-  dogYears.innerText = Number;
-  age * 7;
-  return age * 7;
+  dogYears.innerText = Number(age) * 7;
+  return Number(age) * 7;
 }
 
 // Step 4. Set the parameter of showDogyears()
-dogYears.innerText = showDogYears(23);
+dogYears.innerText = showDogYears(age.innerText);
 
 // Step 5. Select all the .fake-input classes and give them the class of .real-input. This may take a little "googling" to find the solution, but that's half of what web development is all about.
 const fakeInputs = document.querySelectorAll('.fake-input');
 fakeInputs.forEach((node) => {
   node.classList.add('real-input');
+  node.classList.remove('fake-input');
 });
